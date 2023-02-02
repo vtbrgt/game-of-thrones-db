@@ -7,9 +7,24 @@
   font-family: 'Spectral', Georgia;
 }
 
+/* header */
 header {
-  margin-top: initial !important;
-  border-bottom: 2px solid rgb(182, 34, 34);
+  border-bottom: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    rgb(182, 34, 34),
+    rgb(216, 189, 35)
+  );
+}
+
+/* main */
+main {
+  height: 100vh;
+  background-image: url('assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* footer */
@@ -20,14 +35,19 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 2rem;
-  margin-top: 2rem;
   background-color: #17191f;
   color: rgb(218, 218, 218);
   text-shadow: 0 0 6px rgb(182, 34, 34);
 }
 
 footer {
-  border-top: 2px solid rgb(182, 34, 34);
+  border-top: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    rgb(182, 34, 34),
+    rgb(216, 189, 35)
+  );
 }
 
 footer h2 {
