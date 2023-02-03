@@ -17,8 +17,9 @@ Game of Thrones db é uma aplicação dos resultados sobre as perguntas aplicada
 
 ## Front end
 - HTML / CSS
+
+## Design
 - Figma
 - Canva
-
 
 
