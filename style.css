@@ -20,7 +20,7 @@ header {
 
 /* main */
 main {
-  height: 100vh;
+  height: 150vh;
   background-image: url('assets/bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +32,8 @@ main {
 }
 
 .container {
-  margin: 0 7rem;
+  overflow: hidden;
+  margin: 2rem 7rem;
   color: #fefefe;
   text-align: center;
   display: flex;
@@ -109,14 +110,17 @@ main {
   transition: max-height 650ms;
 }
 
-.answer p {
-  color: #fff;
-  font-size: 15px;
+.answer img {
   padding: 2rem;
+  width: 55%;
+}
+
+#question3 img {
+  width: 35%;
 }
 
 .accordion-item:target .answer {
-  max-height: 20rem;
+  max-height: 30rem;
 }
 
 .accordion-item:target .accordion-link .ion-md-arrow-forward {
